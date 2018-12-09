@@ -1,54 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/paper-kit.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/paper-kit.css">
 
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
-                <div class="container">
-                    <div class="navbar-translate">
-                        <a class="navbar-brand" href="https://github.com/Exitialis/">Exitialis</a>
-                        <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-bar"></span>
-                            <span class="navbar-toggler-bar"></span>
-                            <span class="navbar-toggler-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbarToggler">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="https://github.com/Exitialis/exitialis.github.io" class="nav-link"><i class="fas fa-code"></i>Репозиторий</a>
-                            </li>
-                        </ul>
-                    </div>
+  <nav id="header" class="navbar navbar-expand-lg fixed-top navbar-transparent" color-on-scroll="300">
+    <div class="container">
+      <div class="navbar-translate">
+        <a class="navbar-brand" href="https://github.com/Exitialis/">Exitialis</a>
+        <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse"
+          data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+          <span class="navbar-toggler-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#lab1" class="nav-link">Лабораторная 1</a>
+          </li>
+          <li class="nav-item">
+            <a href="#lab2" class="nav-link">Лабораторная 2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-header" data-parallax="true" style="background-image: url('img/top.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+      <div class="motto text-center">
+        <h1>Нещадин Иван</h1>
+        <h3>Предмет: «Интернет технологии»</h3>
+        <h3>Группа: ИДМ-18-04</h3>
+        <br />
+        <a href="https://github.com/Exitialis/exitialis.github.io" class="btn btn-outline-neutral btn-round">Репозиторий</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <div class="section text-center" id="lab1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <h2 class="title">Лабораторная работа №1</h2>
+            <h5 class="description">Цель работы: создание профиля на Github</h5>
+            <br>
+            <a href="https://github.com/exitialis" class="btn btn-github-bg btn-github sharrre btn-round" rel="tooltip"
+              title="Профиль в github">
+              <i class="fa fa-github"></i> Github
+            </a>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info">
+              <div class="description">
+                <h4 class="info-title">Профиль Github</h4>
+                <p class="description">Был создан профиль в Github</p>
+                <a class="image-link" href="img/lab1/profile.png">
+                  <img src="img/lab1/profile.png" class="img-fluid" height="200" alt="">
+                </a>
+                <a href="https://github.com/exitialis" class="btn btn-link btn-danger">Профиль</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="description">
+                <h4 class="info-title">Репозиторий</h4>
+                <p class="description">Произведено подключение к общему репозиторию</p>
+                <a class="image-link" href="img/lab1/rep.png">
+                  <img src="img/lab1/rep.png" class="img-fluid" height="200" alt="">
+                </a>
+                <a href="https://github.com/stankin/inet-2018" class="btn btn-link btn-danger">Репозиторий</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="description">
+                <h4 class="info-title">Github.io</h4>
+                <p class="description">Создан репозиторий-сайт при помощи github pages</p>
+                <a class="image-link" href="img/lab1/githubio.png">
+                  <img src="img/lab1/githubio.png" height="200" class="img-fluid" alt="">
+                </a>
+                <a href="https://github.com/Exitialis/exitialis.github.io" class="btn btn-link btn-danger">Что там?</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="info">
+              <div class="description">
+                <h4 class="info-title">Страница с отчетом</h4>
+                <p class="description">Была создана страница с отчетом по выполнению лабораторных работ</p>
+                <a class="image-link" href="img/lab1/page.png">
+                  <img src="img/lab1/page.png" height="200" class="img-fluid" alt="">
+                </a>
+                <a href="https://exitialis.github.io" class="btn btn-link btn-danger">Посмотреть скорее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="lab2" class="section section-dark text-center">
+      <div class="container">
+        <h2 class="title">Лабораторная №2</h2>
+        <h5 class="description">Цель работы: Проектирование и разработка индивидуального или коллективного
+          веб-приложения с использованием html,css,js + json,xml </h5>
+        <h5 class="description">Проект: Scrum доска для планирования задач </h5>
+        <!-- <div class="row">
+          <div class="col-md-4">
+            <div class="card card-profile card-plain">
+              <div class="card-avatar">
+                <a href="#avatar"><img src="../assets/img/faces/clem-onojeghuo-3.jpg" alt="..."></a>
+              </div>
+              <div class="card-body">
+                <div class="author">
+                  <h4 class="card-title">Henry Ford</h4>
+                  <h6 class="card-category">Product Manager</h6>
                 </div>
-            </nav>
+                <p class="card-description text-center">
+                  Teamwork is so important that it is virtually impossible for you to reach the heights of your
+                  capabilities or make the money that you want without becoming very good at it.
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="page-header" data-parallax="true" style="background-image: url('img/top.jpg');">
-			<div class="filter"></div>
-			<div class="container">
-			    <div class="motto text-center">
-			        <h1>Нещадин Иван</h1>
-                    <h3>Предмет: «Проектирование информационных систем»</h3>
-                    <h3>Группа: ИДБ-14-13</h3>
-			        <br />
-			        <a href="https://github.com/Exitialis/exitialis.github.io" class="btn btn-outline-neutral btn-round">Репозиторий</a>
-			    </div>
-			</div>
-    	</div>
+          <div class="col-md-4">
+            <div class="card card-profile card-plain">
+              <div class="card-avatar">
+                <a href="#avatar"><img src="../assets/img/faces/joe-gardner-2.jpg" alt="..."></a>
+              </div>
+              <div class="card-body">
+                <a href="#paper-kit">
+                  <div class="author">
+                    <h4 class="card-title">Sophie West</h4>
+                    <h6 class="card-category">Designer</h6>
+                  </div>
+                </a>
+                <p class="card-description text-center">
+                  A group becomes a team when each member is sure enough of himself and his contribution to praise the
+                  skill of the others. No one can whistle a symphony. It takes an orchestra to play it.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4">
+            <div class="card card-profile card-plain">
+              <div class="card-avatar">
+                <a href="#avatar"><img src="../assets/img/faces/erik-lucatero-2.jpg" alt="..."></a>
+              </div>
+              <div class="card-body">
+                <a href="#paper-kit">
+                  <div class="author">
+                    <h4 class="card-title">Robert Orben</h4>
+                    <h6 class="card-category">Developer</h6>
+                  </div>
+                </a>
+                <p class="card-description text-center">
+                  The strength of the team is each individual member. The strength of each member is the team. If you
+                  can laugh together, you can work together, silence isn’t golden, it’s deadly.
+                </p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-twitter"></i></a>
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-google-plus"></i></a>
+                <a href="#pablo" class="btn btn-link btn-just-icon btn-neutral"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </main>
 
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://npmcdn.com/headroom.js@0.9.4/dist/headroom.min.js"></script>
+  <script src="js/magnific.min.js"></script>
+  <script>
+    let header = document.getElementById("header");
 
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    let headroom = new Headroom(header);
+
+    headroom.init();
+
+    window.onscroll = function () {
+      if (document.documentElement.scrollTop > 800) {
+        header.classList.remove('navbar-transparent');
+        header.classList.add('bg-primary');
+      } else {
+        header.classList.add('navbar-transparent');
+        header.classList.remove('bg-primary')
+      }
+    }
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.image-link').magnificPopup({
+        type: 'image',
+        closeOnContentClick: true,
+        closeBtnInside: false,
+        fixedContentPos: true,
+        mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+        image: {
+          verticalFit: true
+        },
+        zoom: {
+          enabled: true,
+          duration: 300 // don't foget to change the duration also in CSS
+        }
+      });
+    });
+  </script>
 </body>
+
 </html>

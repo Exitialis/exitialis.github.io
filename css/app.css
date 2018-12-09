@@ -1,0 +1,31 @@
+.info {
+  height: 100%;
+}
+
+.info > .description {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info > .description > .description {
+  flex: 1;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+/* #header {
+  -webkit-transition: background .5s ease-out;
+  -moz-transition: background .5s ease-out;
+  -o-transition: background .5s ease-out;
+  transition: background .5s ease-out;
+} */
