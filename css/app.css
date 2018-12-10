@@ -23,6 +23,20 @@
   transform: translateY(-100%);
 }
 
+.table-dark {
+  background-color: #0b1011;
+  color: #fff;
+}
+
+.table-dark th {
+  text-align: center;
+}
+
+.table-dark td {
+  border-top: none;
+  color: #fff;
+}
+
 /* #header {
   -webkit-transition: background .5s ease-out;
   -moz-transition: background .5s ease-out;
