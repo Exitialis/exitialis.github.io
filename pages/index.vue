@@ -130,7 +130,7 @@ const { data: about } = await useFetch('/api/about')
       <ul class="clients-list has-scrollbar">
         <li class="clients-item">
           <a href="https://example.com" target="_blank">
-            <img src="/.png" alt="Company">
+            <!-- <img src="/.png" alt="Company"> -->
           </a>
         </li>
 
