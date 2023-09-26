@@ -1,0 +1,11 @@
+{
+    "hello": "Привет",
+    "goodbye": "До свидания",
+    "pageTitles": {
+        "about": "Обо мне",
+        "resume": "Резюме",
+        "portfolio": "Портфолио",
+        "blog": "Блог",
+        "github": "Github"
+    }
+}
