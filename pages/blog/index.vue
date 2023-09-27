@@ -43,7 +43,7 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/cara-install-phpmyadmin-di-android-menggunakan-termux">
+          <a href="">
 
             <figure class="blog-banner-box">
               <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699212595/40c994c9-0d1a-4eba-a82b-76c5da81683f.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="Cara Install PHPMyAdmin Di Android Menggunakan Termux" loading="lazy">
@@ -73,10 +73,10 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/cara-mengirim-foto-ukuran-asli-di-whatsapp">
+          <a href="">
 
             <figure class="blog-banner-box">
-              <img src="https://raw.githubusercontent.com/agcrisbp/blog/main/public/wa.png" alt="Cara Mengirim Foto Ukuran Asli Di WhatsApp" loading="lazy">
+              <img src="" alt="Cara Mengirim Foto Ukuran Asli Di WhatsApp" loading="lazy">
             </figure>
 
             <div class="blog-content">
@@ -101,7 +101,7 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/how-to-calculated-age-using-javascript">
+          <a href="">
 
             <figure class="blog-banner-box">
               <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699222636/2e36749d-ac8c-42a1-9d01-151492cb1ab2.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="How To Calculated Age For Date of Birth Using JavaScript" loading="lazy">
@@ -129,7 +129,7 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/php-redirect-using-get-parameter">
+          <a href="">
 
             <figure class="blog-banner-box">
               <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699244737/468273f9-5c58-4b48-b962-913773a9c5b3.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp" alt="PHP Redirect Using $GET Parameter In HTML" loading="lazy">
@@ -157,7 +157,7 @@ useHead({
         </li>
 
         <li class="blog-post-item">
-          <a href="https://blog.agcrisbp.my.id/posts/cara-mengeluarkan-akun-google">
+          <a href="">
 
             <figure class="blog-banner-box">
               <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1685699236149/9bceb6ff-ee46-4f77-b2b6-7e54c36e41e1.jpeg?auto=compress,format&format=webp" alt="Cara Mengeluarkan Akun Google Di Perangkat Lain" loading="lazy">
