@@ -25,13 +25,10 @@ export default defineNuxtConfig({
     },
   },
   css: [
-    // 'primevue/resources/themes/bootstrap4-dark-blue/theme.css',
-    // 'primevue/resources/primevue.css',
-    // 'primeicons/primeicons.css',
     '/assets/css/style.css',
   ],
   build: {
-    transpile: ['primevue', 'pinia-orm'],
+    transpile: ['pinia-orm'],
   },
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',

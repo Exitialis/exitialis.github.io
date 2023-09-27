@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'master'
+    branches: 'main'
 
 jobs:
   build_site:
@@ -24,8 +24,9 @@ jobs:
         env:
           BASE_PATH: ''
         run: |
-          npm run build
-          touch dist/.nojekyll
+          npm run generate
+          ls -la
+          touch ./dist/.nojekyll
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v1
