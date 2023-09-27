@@ -317,12 +317,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 150px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 465px; }
 
 .sidebar-info {
   position: relative;
@@ -1326,7 +1326,7 @@ textarea.contact::-webkit-resizer { display: none; }
    */
 
   main {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 100px;
   }
 
@@ -1337,7 +1337,7 @@ textarea.contact::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 230px;
     margin-bottom: 30px;
   }
 
@@ -1847,11 +1847,10 @@ textarea.contact::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 60px;
-    max-height: 50rem;
+    top: 40px;
+    max-height: 53rem;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
     z-index: 1;
   }
 

@@ -1,11 +1,17 @@
 {
-    "hello": "Hello",
-    "goodbye": "Good Bye",
-    "pageTitles": {
-        "about": "About",
-        "resume": "Resume",
-        "portfolio": "Portfolio",
-        "blog": "Blog",
-        "github": "Github"
-    }
+  "hello": "Hello",
+  "goodbye": "Good Bye",
+  "lastName": "Neshchadin",
+  "firstName": "Ivan Pavlovich",
+  "pageTitles": {
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "github": "Github"
+  },
+  "about": {
+    "skills": "Skills",
+    "description": "Senior Engineer at Avito, I have been developing professionally since 2015, I've started developing in PHP, then in 2019 I switched to developing in Go. I worked in several small startups, as well as in two large companies - CarPrice and now I'm working at Avito. I am interested in development - this is really my hobby, I am also interested in different types of keyboards, I soldered and assembled two keyboards myself, I use orthogonal split keyboards. I type with the ten-finger method, play the guitar (graduated from music school), and play a lot of computer games. I am interested in the gym and travel a lot."
+  }
 }

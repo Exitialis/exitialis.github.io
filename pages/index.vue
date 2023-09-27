@@ -33,9 +33,6 @@ function closeTestimonaial() {
 
 /* Services */
 const { data: services } = await useFetch('/api/services')
-
-/* Services */
-const { data: about } = await useFetch('/api/about')
 </script>
 
 <template>
@@ -48,16 +45,21 @@ const { data: about } = await useFetch('/api/about')
 
     <section class="about-text">
       <ul class="about-list">
-        <AboutItem v-for="about in about" :key="about.id" :about="about" />
+        <About/>
       </ul>
     </section>
 
+    
+    <div class="separator"></div>
     <!-- service -->
 
     <section class="service">
       <br />
+      <h3 class="h3 pb-5">
+        {{ $t("about.skills") }}
+      </h3>
       <ul class="service-list">
-        <ServiceItem v-for="service in services" :key="service.id" :service="service" />
+        <Skill v-for="service in services" :key="service.id" :skill="service" />
       </ul>
     </section>
 
