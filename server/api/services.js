@@ -34,6 +34,16 @@ export default defineEventHandler(() => {
     },
     {
       id: 4,
+      title: 'Lua',
+      description: {
+        en: 'I use Lua, from scripts in video games to plugins for NVim and Nginx.',
+        ru_RU: 'Использую Lua, начиная от скриптов в видеоиграх, заканчивая плагинами к NVim и Nginx.',
+      },
+      icon: 'logos:lua',
+      image: null,
+    },
+    {
+      id: 5,
       title: 'Python',
       description: {
         en: 'I use Python for various tasks related to neural networks and data analysis. The last project was the chatbot trained on Avito’s internal documentation to help developers as part of a hackathon.',
@@ -43,7 +53,7 @@ export default defineEventHandler(() => {
       image: null,
     },
     {
-      id: 5,
+      id: 6,
       title: 'PostgreSQL',
       description: {
         en: "I wrote many apps with usage PostgreSQL as main database. And i know how to use it with big amount of data and highload",
@@ -52,5 +62,46 @@ export default defineEventHandler(() => {
       icon: 'devicon:postgresql',
       image: null,
     },
+    {
+      id: 7,
+      title: 'Redis',
+      description: {
+        en: "I have been using Redis in many projects almost from the very beginning of my career.",
+        ru_RU: 'Использую Redis во многих проектах почти с самого начала моей трудовой деятельности.',
+      },
+      icon: 'devicon:redis',
+      image: null,
+    },
+    {
+      id: 8,
+      title: 'Neo4j',
+      description: {
+        en: "I've been using this database for over a year on my latest architecture analysis project. I can both administrate a database and write effective queries and work with a large number of connections.",
+        ru_RU: 'Использую эту базу данных более года в своем последнем проекте по анализу архитектуры. Умею как администрировать БД, так и писать эффективные запросы и работать с большим числом связей.',
+      },
+      icon: 'devicon:neo4j-wordmark',
+      image: null,
+    },
+    {
+      id: 9,
+      title: 'Kubernetes',
+      description: {
+        en: "For the past few years, Kubernetes has been the main deployment environment for the microservices I write. I can manage kubernetes clusters using commands",
+        ru_RU: 'Последние несколько лет Kubernetes является основной средой для деплоя микросервисов, которые я пишу. Умею при помощи команд управлять kubernetes кластерами',
+      },
+      icon: 'logos:kubernetes',
+      image: null,
+    },
+    {
+      id: 10,
+      title: 'NVim',
+      description: {
+        en: "NVim is my main editor for writing code. I wrote config for neovim using the Lua language and opensource plugins.",
+        ru_RU: 'NVim является моим основным редактором для написания кода. Самостоятельно написал и сконфигурировал neovim для разработки, используя язык Lua и opensource плагины.',
+      },
+      icon: 'skill-icons:neovim-light',
+      image: null,
+    }
+
   ]
 })

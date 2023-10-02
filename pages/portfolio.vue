@@ -60,7 +60,7 @@ function closeItem() {
 
         <li v-for="category in categories" :key="category.id" class="filter-item" @click="changeFilter(category.id)">
           <button :class="{ active: activeCategory === category.id }">
-            {{ $t("category.title") }}
+            {{ locale === 'en' ? category.title?.en : category.title?.ru_RU }}
           </button>
         </li>
       </ul>

@@ -5,22 +5,22 @@ export default defineEventHandler(() => {
     {
       id: 1,
       title: {
-        en: 'Song',
-        id_ID: 'Lagu',
+        en: 'OnlineSim',
+        ru_RU: 'OnlineSim',
       },
     },
     {
       id: 2,
       title: {
         en: 'App',
-        id_ID: 'Aplikasi',
+        ru_RU: 'Test',
       },
     },
     {
       id: 3,
       title: {
         en: 'Web Design',
-        id_ID: 'Desain Web',
+        ru_RU: 'Test',
       },
     },
   ]

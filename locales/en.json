@@ -13,5 +13,19 @@
   "about": {
     "skills": "Skills",
     "description": "Senior Engineer at Avito, I have been developing professionally since 2015, I've started developing in PHP, then in 2019 I switched to developing in Go. I worked in several small startups, as well as in two large companies - CarPrice and now I'm working at Avito. I am interested in development - this is really my hobby, I am also interested in different types of keyboards, I soldered and assembled two keyboards myself, I use orthogonal split keyboards. I type with the ten-finger method, play the guitar (graduated from music school), and play a lot of computer games. I am interested in the gym and travel a lot."
+  },
+  "resume": {
+    "simex": {
+      "description": "Junior Fullstack Developer. Работал на фреймворке Laravel + Vue.js для фронта. Разрабатывал и поддерживал сайт краудинвестинговой платформы."
+    },
+    "onlinesim": {
+      "description": "Fullstack Developer. Разрабатывал платформу для бизнеса, которая поможет находить людей, которые используют одноразовые номера для регистрациях на сайтах. Разработал ПО на Electron по работе с телекоммуникационным оборудованием, которое может получать и отправлять звонки и смс сообщения. Также реализовал бэкенд сервис, который устанавливал соединение с Electron клиентами и обменивались данными."
+    },
+    "carprice": {
+      "description": "Senior Backend Developer. Распиливал монолит с Bitrix => Laravel. Разработал систему внутреннего документооборота для проведения сделки с авто. Разработал систему для приема платежей через Tinkoff bank на Go для ускоренного проведения сделки купли/продажи"
+    },
+    "avito": {
+      "description": "Senior Backend Developer. Внес существенный вклад в распил монолита на Go микросервисы, вынес несколько высоконагруженных частей из монолита - 300k rpm и 200k rpm сервисы. Работаю в платформенной команде, занимаюсь архитектурой Авито, при помощи анализа трейсов строю карту взаимодействий микросервисов, используя базу neo4j, обрабатываю миллионы трейсов. Нахожу узкие места через деревья запросов между сервисами."
+    }
   }
 }
