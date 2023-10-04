@@ -9,7 +9,7 @@ const props = defineProps({
 const { locale } = useI18n({ useScope: 'global' })
 
 const description = computed(() => {
-  return props.skill.description[locale.value]? props.skill.description[locale.value] : props.skill.description["en"]
+  return props.skill.description[locale.value] ? props.skill.description[locale.value] : props.skill.description["en"]
 })
 
 onMounted(() => {
@@ -30,8 +30,7 @@ onMounted(() => {
         {{ skill.title }}
       </h4>
 
-      <p class="service-item-text" >
-
+      <p class="service-item-text">
         {{ description }}
       </p>
     </div>

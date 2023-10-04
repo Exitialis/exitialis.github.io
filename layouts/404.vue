@@ -9,7 +9,7 @@ useHead({
   <article class="active" data-page="resume">
     <header>
       <h2 class="h2 article-title">
-        Page Not Found
+        {{$t("404.title")}}
       </h2>
     </header>
 
@@ -19,7 +19,7 @@ useHead({
       </div>
 
       <div class="text-xl text-[#fafafa]">
-        <span>The Page you are looking for doesn't exist or an other error occured. 😞</span>
+        <span>{{ $t("404.description")}}</span>
         <span class="mx-auto w-40 py-2 mt-5 cursor-pointer font-semibold bg-ranko-500 text-[#1e1e1f] rounded text-sm" @click="router.back()">
           Go back
         </span>

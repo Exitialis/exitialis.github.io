@@ -5,23 +5,9 @@ const { locale } = useI18n({ useScope: 'global' })
 const cookieLocale = useLocaleStore()
 
 locale.value = cookieLocale.getLocale || 'en'
-
-const loadingPage = ref()
-
-onBeforeMount(() => {
-  loadingPage.value = false
-})
-
-onMounted(() => {
-  setTimeout(() => {
-    loadingPage.value = true
-  }, 1000)
-})
 </script>
 
 <template>
-  <LoadingPage v-show="!loadingPage" />
-
   <NuxtLayout>
     <NuxtPage transition />
   </NuxtLayout>

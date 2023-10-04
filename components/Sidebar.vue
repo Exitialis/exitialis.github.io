@@ -3,9 +3,6 @@ import { Icon } from "@iconify/vue"
 
 let isOpen = ref(false)
 
-function toggleMenu() {
-  isOpen = !isOpen
-}
 </script>
 
 <template>
@@ -23,6 +20,7 @@ function toggleMenu() {
         <p class="title text-center xl:block flex items-center justify-center gap-1">
           <span class="xl:after:content-[''] after:content-[',']">Software Architect</span>
           <span>Backend Engineer</span>
+          <span>Mentor</span>
         </p>
       </div>
 
@@ -78,6 +76,21 @@ function toggleMenu() {
             <a href="https://id.linkedin.com/in/exitialis" class="contact-link" target="_blank">exitialis</a>
           </div>
         </li>
+
+        <li class="contact-item">
+          <div class="icon-box">
+            <Icon icon="ic:baseline-telegram" />
+          </div>
+
+          <div class="contact-info">
+            <p class="contact-title">
+              Telegram
+            </p>
+
+            <a href="https://t.me/exitialis" class="contact-link" target="_blank">exitialis</a>
+          </div>
+        </li>
+
 
         <li class="contact-item">
           <div class="icon-box">
