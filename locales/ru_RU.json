@@ -2,7 +2,7 @@
   "hello": "Привет",
   "goodbye": "До свидания",
   "lastName": "Нещадин",
-  "firstName": "Иван Павлович",
+  "firstName": "Иван",
   "404": {
     "title": "Page Not Found",
     "description": "The Page you are looking for doesn't exist or an other error occured. 😞",

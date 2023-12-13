@@ -18,7 +18,7 @@ let isOpen = ref(false)
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Software Architect</span>
+          <span class="xl:after:content-[''] after:content-[',']">TechLead</span>
           <span>Backend Engineer</span>
           <span>Mentor</span>
         </p>
