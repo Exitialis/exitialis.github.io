@@ -13,7 +13,7 @@ useHead({
       { charset: 'utf-8' },
       { name: 'description', content: 'Personal site about Neshchadin Ivan Pavlovich.' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'og:image', content: 'https://v2.amp-cdn.net/images/480468a77ad0a1a6b1b2e773d9371249e13e3ca2aff757' }
+      { name: 'og:image', content: '../images/favicon.icon' }
     ],
   link: [
     {
