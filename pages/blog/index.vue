@@ -15,6 +15,88 @@ useHead({
     <section class="blog-posts">
       <ul class="blog-posts-list">
         <li class="blog-post-item">
+          <a href="https://highload.ru/moscow/2023">
+
+            <figure class="blog-banner-box">
+            <img src="/images/highload_2023.jpg" :alt="$t('blog.highload_2023.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Conference</p>
+
+                <span class="dot" />
+
+                <time datetime="2023-11-27">27-28 November, 2023</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.highload_2023.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.highload_2023.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+
+        <li class="blog-post-item">
+          <a href="/images/podlodka_2023.png">
+
+            <figure class="blog-banner-box">
+            <img src="/images/podlodka_2023.png" :alt="$t('blog.podlodka_2023.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Public speech</p>
+
+                <span class="dot" />
+
+                <time datetime="2023-11-16">16 November, 2023</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.podlodka_2023.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.podlodka_2023.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+
+        <li class="blog-post-item">
+          <a href="/images/breakpoint_2023.jpg">
+            <figure class="blog-banner-box">
+            <img src="/images/breakpoint_2023.jpg" :alt="$t('blog.breakpoint_2023.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Public speech</p>
+
+                <span class="dot" />
+
+                <time datetime="2023-11-04">4 November, 2023</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.breakpoint_2023.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.breakpoint_2023.description')}}
+              </p>
+
+            </div>
+          </a>
+        </li>
+
+        <li class="blog-post-item">
           <a href="https://www.youtube.com/watch?v=OEUIzg-IeyM&list=PLknJ4Vr6efQFHIBKN_igl7Zl6nMbcjrsd&index=5">
 
             <figure class="blog-banner-box">
