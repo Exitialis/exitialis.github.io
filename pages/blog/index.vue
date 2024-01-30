@@ -15,6 +15,34 @@ useHead({
     <section class="blog-posts">
       <ul class="blog-posts-list">
         <li class="blog-post-item">
+          <a href="/images/ftm_2024.png">
+
+            <figure class="blog-banner-box">
+            <img src="/images/ftm_2024.png" :alt="$t('blog.ftm_2024.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Education</p>
+
+                <span class="dot" />
+
+                <time datetime="2023-11-23">23 November 2023 - 25 January 2024</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.ftm_2024.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.ftm_2024.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+
+        <li class="blog-post-item">
           <a href="https://highload.ru/moscow/2023">
 
             <figure class="blog-banner-box">
