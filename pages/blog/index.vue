@@ -15,6 +15,88 @@ useHead({
     <section class="blog-posts">
       <ul class="blog-posts-list">
         <li class="blog-post-item">
+          <a href="https://youtu.be/02HLJES7_lA">
+
+            <figure class="blog-banner-box">
+            <img src="/images/youtube_highload_2024.jpg" :alt="$t('blog.youtube_highload_2024.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Public speech</p>
+
+                <span class="dot" />
+
+                <time datetime="2024-12-03">03 December, 2024</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.youtube_highload_2024.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.youtube_highload_2024.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+        <li class="blog-post-item">
+          <a href="https://www.youtube.com/watch?v=ko0iZqSe0Bg">
+
+            <figure class="blog-banner-box">
+            <img src="/images/youtube_avito_ci_cd.jpg" :alt="$t('blog.youtube_avito_ci_cd.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Video</p>
+
+                <span class="dot" />
+
+                <time datetime="2024-09-23">23 September, 2024</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.youtube_avito_ci_cd.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.youtube_avito_ci_cd.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+        <li class="blog-post-item">
+          <a href="https://www.youtube.com/watch?v=40QghvScTew">
+
+            <figure class="blog-banner-box">
+            <img src="/images/youtube_salary_podcast.jpg" :alt="$t('blog.youtube_salary_podcast.title')" loading="lazy">
+            </figure>
+
+            <div class="blog-content">
+
+              <div class="blog-meta">
+                <p class="blog-category">Video</p>
+
+                <span class="dot" />
+
+                <time datetime="2024-07-16">16 July, 2024</time>
+              </div>
+
+              <h3 class="h3 blog-item-title">{{$t('blog.youtube_salary_podcast.title')}}</h3>
+
+              <p class="blog-text">
+                {{$t('blog.youtube_salary_podcast.description')}}
+              </p>
+
+            </div>
+
+          </a>
+        </li>
+
+        <li class="blog-post-item">
           <a href="/images/ftm_2024.png">
 
             <figure class="blog-banner-box">

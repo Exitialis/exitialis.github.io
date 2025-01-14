@@ -18,7 +18,20 @@ useHead({
           <h4 class="h4 timeline-item-title">
             Avito
           </h4>
-          <span>03.2020 - Present</span>
+          <span>01.06.2024 - Present</span>
+          <p class="timeline-item-desc">
+            Moscow
+          </p>
+          <p class="timeline-text">
+            {{ $t("resume.avito2.description") }}
+          </p>
+        </li>
+
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Avito
+          </h4>
+          <span>03.2020 - 01.06.2024</span>
           <p class="timeline-item-desc">
             Moscow
           </p>
