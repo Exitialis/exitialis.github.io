@@ -3,6 +3,7 @@
   "goodbye": "До свидания",
   "lastName": "Нещадин",
   "firstName": "Иван",
+  "status": "Не ищу работу",
   "404": {
     "title": "Page Not Found",
     "description": "The Page you are looking for doesn't exist or an other error occured. 😞"

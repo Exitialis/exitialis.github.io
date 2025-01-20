@@ -3,13 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -207,6 +200,11 @@ article {
   z-index: -1;
 }
 
+.badge-blue {
+  background-color: color-mix(in oklab, var(--color-blue-400) 10%, transparent);
+  color: var(--color-blue-400);
+}
+
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
 article { display: none; }
@@ -316,7 +314,6 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 150px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1336,7 +1333,7 @@ textarea.contact::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 230px;
+    max-height: 270px;
     margin-bottom: 30px;
   }
 
@@ -1813,10 +1810,7 @@ textarea.contact::-webkit-resizer { display: none; }
    * REUSED STYLE
    */
 
-  .sidebar, article { width: auto; }
-
   article { min-height: 100%; }
-
 
 
   /**
@@ -1847,7 +1841,7 @@ textarea.contact::-webkit-resizer { display: none; }
   .sidebar {
     position: sticky;
     top: 40px;
-    max-height: 53rem;
+    max-height: 55rem;
     height: 100%;
     margin-bottom: 0;
     z-index: 1;

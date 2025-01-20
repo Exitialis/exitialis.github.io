@@ -21,7 +21,14 @@ let isOpen = ref(false)
           <span class="xl:after:content-[''] after:content-[',']">TechLead</span>
           <span>Backend Engineer</span>
           <span>Mentor</span>
+          <span>530 000₽ net</span>
         </p>
+        <!-- Comment -->
+        <!--<p class="text-center xl:block flex items-center justify-center gap-1">
+          <span class="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium badge-blue">
+           {{$t("status")}}
+          </span>
+        </p>-->
       </div>
 
       <button class="info_more-btn" @click="isOpen = !isOpen">
